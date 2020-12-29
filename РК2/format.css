@@ -1,0 +1,5 @@
+table{border: 2px solid Black}
+ul{width: 90px}
+li:nth-child(2n){background-color: #22D80E}
+li:nth-child(2n+1){background-color: #8700FA}
+li:nth-child(1){background-color: #ffffff}
