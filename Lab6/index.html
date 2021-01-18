@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР6</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form>
+    <h1>Регистрация</h1>
+    <div>
+    <p><b>Введите имя:</b><br>
+        <input type="text" name="name" size="40" required>
+    </p>
+    </div>
+    <p><b>Введите пароль:</b><br>
+        <input type="password" maxlength="25" size="40" name="password"required></p>
+    </p>
+    </div>
+    <div>
+        <p><b>Введите email:</b><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+    </div>
+    <div>
+       <p><b>Пол:</b><Br>
+        <input type="radio" name="sex" value="male"> Мужской<Br>
+        <input type="radio" name="sex" value="female"> Женский<Br>
+        <input type="radio" name="sex" value="unknown"> Засекречен<Br>
+       </p>
+    </div>
+    <div>
+        <select name="country" id="country" required>
+          <option>Выберите страну</option>
+          <option value="Россия">Россия</option> 
+          <option value="Украина">Украина</option> 
+          <option value="Беларусь">Беларусь</option> 
+        </select> 
+    </div> 
+    <div>
+        <p><select name="timezone" size="2" required>
+            <option disabled>Выберите часовой пояс</option>
+            <option value="GMT+3">GMT+3 (Московское время)</option>
+            <option value="GMT+4">GMT+4</option>
+            <option value="GMT+5">GMT+5</option>
+        </select></p>
+    </div>
+    <div>
+    <p>Выберите город:</p>
+    <p><input list="city">
+     <datalist id="city">
+      <option value="Москва"></option>
+      <option value="Киев"></option>
+      <option value="Минск"></option>
+     </datalist></p>
+    </div>
+    <div>
+        <p><b>Введите описание профиля:</b></p>
+        <p><textarea name="comment"></textarea></p>
+    </div>
+    <div>
+        <p>Цели регистрации:</p>
+        <p><input type="checkbox" name="a" value="study"> Для учебы</p>
+        <p><input type="checkbox" name="a" value="work"> Для работы</p>
+        <p><input type="checkbox" name="a" value="forme" checked> Для личного пользования</p>
+    </div>
+    <div>
+        <input type="reset" value="Очистить">
+    </div>
+    <div>
+    <p></p>
+    <button>
+        <img src="next.png">
+       </button></p>
+    </div>
+    
+</form>
+</body>
+</html>

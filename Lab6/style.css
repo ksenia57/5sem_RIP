@@ -1,0 +1,123 @@
+html {
+    font-size: 10px;
+    font-family: 'lucida console';
+    color:rgb(0, 152, 0)
+  }
+  
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+  
+  
+  html {
+    background-color: #c1d5e9;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #505169;
+    padding: 0 10px 100px 10px;
+    #border: 3px solid rgb(5, 156, 5);
+    #border-radius: 50px;
+  }
+  form {
+    width: 100%;
+    padding: 30px;
+    border-radius: 0 20px 20px 0;
+    color: rgb(5, 0, 5);
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 0;
+  }
+  input[type="text"], input[type="password"],input[type="email"],input[list],textarea{
+    border-width: 0px;
+    outline: none;
+    margin: 0;
+    width: 95%;
+    padding: 10px 15px;
+    border-color: #FFFFFF;
+    background: rgb(228, 228, 228);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'lucida console';
+  }
+  select {
+    border-width: 0px;
+    outline: none;
+    margin: 0;
+    width: 100%;
+    padding: 10px 15px;
+    border-color: #FFFFFF;
+    background: rgb(228, 228, 228);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'lucida console';
+  }
+  input[type="reset"],button
+  {
+    cursor: pointer;
+    border-width: 0px;
+    outline: none;
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px 15px;
+    border-color: #FFFFFF;
+    background: rgb(228, 228, 228);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'lucida console';
+    height: 50px;
+    border: 1px solid white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+  }
+  input[type="reset"]:hover {
+    cursor: pointer;
+    border-width: 0px;
+    outline: none;
+    margin: 0;
+    width: 30%;
+    padding: 10px 15px;
+    border-color: #57b366;
+    background: #b37957;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'lucida console';
+}
+button:hover
+{
+  cursor: pointer;
+  border-width: 0px;
+  outline: none;
+  margin: 0 auto;
+  width: 30%;
+  padding: 10px 15px;
+  border-color: #57b366;
+  background: #57b366;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'lucida console';
+}
+
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #f8f5f5;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }

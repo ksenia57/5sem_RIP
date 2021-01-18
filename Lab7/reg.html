@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>ЛР7</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+      <div class="container-xl">
+        <a class="navbar-brand" href="index.html">Лабораторная работа №7</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reg.html">Регистрация</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Об авторе</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                <li><a class="dropdown-item" href="info.html">Информация</a></li>
+                <li><a class="dropdown-item" href="mailto:someone@example.com">Написать автору</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="container-xl mb-4">
+        <h1>Регистрация</h1>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Введите имя:</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                <div id="nameHelp" class="form-text">Имя будет отображаться в вашем профиле.</div>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Введите email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Введите пароль:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passHelp">
+              <div id="passHelp" class="form-text">Никому не сообщайте пароль.</div>
+            </div>
+            <p>Укажите пол:</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Мужской
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Женский
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Засекречен
+                </label>
+              </div>
+            <div><p></p>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Выберите страну:</option>
+                <option value="1">Россия</option>
+                <option value="2">Беларусь</option>
+                <option value="3">Украина</option>
+              </select>
+            </div>
+            <div><p></p>
+            <select class="form-select" size="3" aria-label="size 3 select example">
+                <option selected>Выберите часовой пояс:</option>
+                <option value="1">GMT+3 (Московское время)</option>
+                <option value="2">GMT+4</option>
+                <option value="3">GMT+5</option>
+              </select>
+            </div><p></p>
+            <p>Фотография профиля:</p>
+            <div class="form-file">
+                <input type="file" class="form-file-input" id="customFile">
+                <label class="form-file-label" for="customFile">
+                </label>
+            </div><p></p>
+
+            <p>Цели регистрации:</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Для учебы
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                  Для работы
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Для личного пользования
+                </label>
+              </div><p></p>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Введите описание профиля:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <button type="submit" class="btn btn-success">Отправить</button>
+                  </div>
+                  <div class="col-sm">
+                  </div>
+                  <div class="col-sm">
+                </div>
+                <div class="col-sm">
+                </div>
+                  <div class="col-sm">
+                    <button type="reset" class="btn btn-danger">Очистить</button>
+                  </div>
+                </div>
+              </div>
+
+<!-- 
+            <button type="submit" class="btn btn-success">Отправить</button>
+            <button type="reset" class="btn btn-danger">Очистить</button> -->
+          </form>
+    </div>
+    
+  </body>
+</html>
